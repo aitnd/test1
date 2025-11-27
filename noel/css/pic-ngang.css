@@ -1,0 +1,42 @@
+/* General */
+*{margin:0;padding:0}
+html, body, ul, li{margin:0;padding:0;list-style:none}
+a{color:#084b8b;text-decoration:none;outline:0}
+a:link{color:#084b8b;text-decoration:none}
+a:visited{color:#084b8b;text-decoration:none}
+a:hover{color:#084b8b;text-decoration:underline}
+a:active{text-decoration:none}
+img, form, input, fieldset{margin:0;padding:0}
+img, form, fieldset{border:0}
+
+.clear{clear:both}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{display:block;zoom:1}
+.pointer{cursor:pointer}
+/* Kind4 */
+.iframe123Mua-kind04{background:url(box_kind4_02.jpg) repeat-y;width:988px;height:200px}
+.iframe123Mua-kind04 .iframe123Mua-kind04-inside{background:url(box_kind4_03.jpg) left bottom no-repeat;height:200px}
+.iframe123Mua-kind04 .topIframe{background:url(box_kind4_01.jpg) left top no-repeat;width:988px;height:5px;margin-bottom:1px}
+.iframe123Mua-kind04 .topIframe .btn-viewmore{display:inline-block;float:right;margin:5px 5px 0 0}
+.iframe123Mua-kind04 .contentIframe{margin:0 10px;padding-left:10px}
+.iframe123Mua-kind04 .contentIframe ul{margin:0px}
+.iframe123Mua-kind04 .contentIframe ul li{width:190px;height:190px}
+.iframe123Mua-kind04 .contentIframe ul li .product{width:185px;height:190px}
+.iframe123Mua-kind04 .pic{position:relative;width:185px;height:180px;margin:0 auto 3px;border:1px solid #e8e8e8;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-kind04 .pic:hover{border:1px solid #ccc}
+.iframe123Mua-kind04 .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:90px;min-width:90px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+
+/*next button*/
+.iframe123Mua-kind04 .bx-next{position:absolute;top:35%;right:-18px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind4_btnRight.png) no-repeat}
+.iframe123Mua-kind04 .bx-prev{position:absolute;top:35%;left:-10px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind4_btnLeft.png) no-repeat}
+.bx-pager a{display:none}
+.bx-auto .start{display:none}
+.bx-auto .stop{display:none}
+.bx-next:hover, .bx-prev:hover{background-position: 0 0}
+.bx-pager .pager-active, .bx-pager a:hover{background-position: 0 0}
+.bx-pager{text-align:center;padding-top:7px;font-size:12px;color:#666}
+.bx-captions{text-align:center;font-size:12px;padding:7px 0;color:#666}
+.bx-auto{text-align:center;padding-top:15px}
+.bx-auto a{color:#666;font-size:12px}

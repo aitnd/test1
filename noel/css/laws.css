@@ -1,0 +1,80 @@
+
+table.archives_list {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-collapse: collapse;
+    border-right: 1px solid #C9D7DE;
+    border-top: 1px solid #C9D7DE;
+    empty-cells: show;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+table.archives_list tbody.second {
+    background: none repeat scroll 0 0 #F8F8F8;
+}
+table.archives_list td {
+    border-bottom: 1px solid #C9D7DE;
+    border-left: 1px solid #C9D7DE;
+    padding: 2px 5px;
+}
+table.archives_list tfoot {
+    background: none repeat scroll 0 0 #CCCCCC;
+}
+table.archives_list thead {
+    background: none repeat scroll 0 0 #E9F2FA;
+    font-weight: bold;
+}
+.maincat {
+    background: none repeat scroll 0 0 #F7FBFB;
+}
+.archives_down {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 2px 0 2px 20px;
+}
+.archives_links {
+    background: none repeat scroll 0 0 #E9F2FA;
+    border: 1px solid #C9D7DE;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.archives_links a {
+    font-weight: bold;
+}
+.search_archives {
+    background: none repeat scroll 0 0 #E9F2FA;
+    border: 1px solid #C9D7DE;
+    margin-bottom: 2px;
+    padding: 2px;
+}
+.bdlaw{
+	border:1px solid;
+	border-color:#C9D7DE;
+	padding:5px;
+	margin-bottom: 8px;
+}
+.chitiet{
+	border:1px solid;
+	border-color:#C9D7DE;
+	margin-bottom: 8px;
+}
+.chitiet h5 {
+	padding: 5px;
+	margin:0;
+	background: none repeat scroll 0 0 #E9F2FA;
+    font-weight: bold;
+}
+.chitiet>div {
+	padding:0 5px; 
+	line-height:24px; 
+	text-align: justify;
+}
+.chitiet>div td {
+	vertical-align: top;
+}
+.page{
+	border:1px solid #C9D7DE;
+	padding-left:10px;
+	text-align: center;
+	background: none repeat scroll 0 0 #E9F2FA;
+}

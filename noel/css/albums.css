@@ -1,0 +1,174 @@
+﻿#albums {
+	border:#E1E1E1 1px solid;
+	text-align:center;
+}
+#albums .mod_title {
+	color:#666;
+	font-weight:bold;
+	height:28px;
+	line-height:28px;
+	background:url(../images/albums/bg_news_cate.png) repeat-x;
+	text-align:left;
+	padding-left:10px;
+}
+.mod_title a{
+	color:#069;
+}
+.mod_title a:hover{
+	color:#F00;
+}
+#albums .mod_content {
+	padding-top:10px;
+}
+#albums .items_rows{
+	height:auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+#albums .items_rows .items_cell{
+	width: 125px;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+#albums .items_rows .items_cell img{
+	border: #E5E5E5 1px solid;
+	padding: 2px;
+	height: 75px;
+}
+#albums .items_rows .items_cell .title_links{
+	color:#000;
+}
+#albums .items_rows .items_cell .title_nums{
+	color:#666;
+	font-size:11px;
+}
+
+#albums .items_rows_adv{
+	height:auto;
+	text-align:center;
+	margin-bottom:10px;
+}
+#albums .items_rows_adv .items_cell{
+	width: 125px;
+	height: auto;
+	text-align: center;
+	float: left;
+}
+#albums .items_rows_adv .items_cell img{
+	border: #E5E5E5 1px solid;
+	padding: 2px;
+	height: 70px;
+}
+#albums .items_rows_adv .items_cell .title_links{
+	color:#000;
+}
+#albums .items_rows_adv .items_cell .title_nums{
+	color:#666;
+	font-size:11px;
+}
+#albums .pages {
+}
+#albums .pages a{color:#000;}
+.viewall{
+	padding:5px; font-size:11px; 
+	text-align:right; 
+	background:#F8F8F8;
+}
+.viewall a{
+	color:#F00;
+}
+.viewall a:hover{
+	color:#069
+}
+.view_albums{
+	padding:5px; 
+	background:#F8F8F8;
+	text-align:left;
+	font-weight:bold;
+}
+.comment .avatar{
+	padding: 0px;
+	margin: 0px 3px 0px 5px;
+	height: 50px;
+	width: 50px;
+	background: #fcfcfc url('../images/music/default_avatar.gif') no-repeat;
+	float: left;
+}
+.comment .avatar img{
+	width: 50px;
+	height: 50px;
+}
+.comment .name{
+	color: #0066CC;
+}
+.comment .date{
+	margin: 0px 0px -3px 0px;
+	font-size: 10px;
+	padding: 0px;
+	color: #666666;
+}
+
+.comment p,
+#addCommentContainer p{
+	padding: 0px 0px 0px 5px;
+	overflow-x: hidden;
+	font-size: 11px;
+}
+#addCommentContainer input[type=text],
+#addCommentContainer textarea{
+	width: 400px;
+	padding: 3px;
+	border: 1px solid #999999;
+	background-color: inherit;
+	float: right;
+	margin-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+label{
+	font-size:10px;
+}
+
+label span.error{
+	color:red;
+	position:relative;
+	right:-10px;
+}
+#main{
+}
+#main .commentcontainer {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#addCommentContainer label {
+	line-height: 25px;
+	float: left;
+	font-size: 11px;
+}
+#main .commentcontainerbo {
+}
+#main p.tttt {
+	padding: 0px;
+	margin: 0;
+	width: 100%;
+	float: left;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+}#main .commentcontainer .comment{
+	background-color: #E4E4E4;
+	margin-bottom: 3px;
+	padding: 3px;
+}#addCommentContainer{
+	padding-left: 3px;
+}#emotion {
+	background-color: #D7EBFF;
+	border: 2px solid #99CCFF;
+	position: absolute;
+	bottom: 0px;
+	left: 30px;
+	display: none;
+}
+

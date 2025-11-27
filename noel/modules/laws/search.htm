@@ -1,0 +1,59 @@
+<script language="javascript" type="text/javascript">
+function laws_swhidden(divname) {
+	var a = document.getElementById(divname);
+	if(a.style.display == 'none') {
+		a.style.display = 'block';
+	} else {
+		a.style.display = 'none';
+	}
+}
+</script>
+<form method="post">
+<div align="center" class="bdlaw">
+<strong>Tìm văn bản: </strong><input name="q" id="q" type="text" value=" {vq}" maxlength="60" style="border: 1px solid #CCCCCC; width: 200px" />
+	<input name="submit" value="1" type="hidden" />
+	<input name="submit1" type="submit" value="Tìm kiếm" />
+	<a href="#" onclick="laws_swhidden('laws_search');return false;">Tìm kiếm nâng cao</a>
+<table id="laws_search" border="0" style="width:420px; display:none; margin-bottom: 0;">
+<tr>
+<td colspan="2" style="text-align: center;"> <strong><em>Tìm chính xác cụm từ </em></strong><input type="checkbox" name="fullq" value="1"></td>
+</tr>
+<td style="text-align: left">Trong: </td>
+<td style="text-align: right">
+	<select name="sein">
+	<option value="0" selected="selected">Tất cả</option>
+	<option value="1">Số / ký hiệu</option>
+	<option value="2">Trích yếu</option>
+	<option value="3">Người ký</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td style="text-align: left">Cơ quan ban hành: </td>
+<td style="text-align: right">
+	<select name="organ">
+			<option value="0">Tất cả</option>
+			<!-- BEGIN: organ -->
+			<option {organ.selecte} value="{organ.organid}">{organ.organname}</option>
+			<!-- END: organ -->	
+	</select>
+</td>
+</tr>
+<tr>
+<td style="text-align: left">Ngày ban hành: </td>
+<td style="text-align: right">
+	Từ: 
+	<input id="ttime" name="ttime" style="width: 70px;" value="{ttime}" type="text">
+	<img src="{URL_SITE}images/calendar.jpg"  style="cursor: pointer; vertical-align: middle;" onclick="popCalendar.show(this, 'ttime', 'dd/mm/yyyy', true);" alt=""  >
+	&nbsp;&nbsp;Đến: 
+	<input id="dtime" name="dtime" style="width: 70px;" value="{dtime}" type="text">
+	<img src="{URL_SITE}images/calendar.jpg" style="cursor: pointer; vertical-align: middle;" onclick="popCalendar.show(this, 'dtime', 'dd/mm/yyyy', true);" alt="" >
+</td>
+</tr>
+</table>
+
+</div>
+</form>
+<!-- BEGIN: numkq -->
+<center>Tìm được <span class="bkq"><strong>{numkq}</strong></span> kết quả theo yêu cầu.</center>
+<!-- END: numkq -->

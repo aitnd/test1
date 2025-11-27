@@ -1,0 +1,89 @@
+#slide-style {
+	width: 660px;
+	float: left;
+	border: 2px solid #7fc9fc;
+	padding: 2px;
+	font-size: 12px;
+	background: #e5f2fa;
+	margin-bottom:5px;
+}
+.border_slide{
+	border: 1px solid #cae1f1;
+	padding: 1px;
+	background: #fff;
+}
+/*Khung hinh thumnail*/
+.sliderwrapper{
+	float: left;
+	position: relative; /*leave as is*/
+	overflow: hidden; /*leave as is*/
+	width: 300px; /*width of featured content slider*/
+	height: 310px;
+}
+
+.sliderwrapper .contentdiv{
+	visibility: hidden; /*leave as is*/
+	position: absolute; /*leave as is*/
+	left: 0;  /*leave as is*/
+	top: 0;  /*leave as is*/
+	padding: 5px;
+	background: white;
+	width: 290px; 
+	text-align: justify;
+	height: 100%;
+	filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.contenttitle{
+}
+
+.contenttitle a {
+	color: #00007D;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
+.contenttitle a :hover{
+	color:red;
+}
+
+.contentdiv img{
+	border: 1px solid #626262;
+	padding: 2px;
+	min-width: 285px;
+	min-height: 200px;
+	max-width: 290px;
+	max-height: 200px;
+}
+/*Khung nho*/
+.box_list{
+	padding:5px;
+	margin:2px 2px 2px 320px;
+	height:313px;
+	width:330px;
+	border: 1px solid #cae1f1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+
+}
+
+
+.box_list ul li{
+	margin-left: 15px;
+	list-style:square;
+	color: red;
+	font-weight: bold;
+}
+
+.box_list ul li a{
+	text-decoration: none; 
+	color: #00007D;
+	background: white;
+	text-align: justify;
+}
+
+.box_list ul li a:hover, .box_list ul li a.selected {
+	color: red;
+}

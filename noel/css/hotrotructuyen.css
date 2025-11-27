@@ -1,0 +1,27 @@
+.online1 {
+	padding:8px;
+	width:180px;
+	text-align:center;
+}
+.onlinea {
+	border:1px solid #024466;
+	-moz-border-radius:10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding:4px;
+}
+.online_ht {
+	width:95%;
+	clear:both;
+}
+.online_col1 {
+	width:95%;
+	float:left;
+	text-align:center;
+}
+.online_col2 {
+	width:95%;
+	float:right;
+	text-align:center;
+}
+

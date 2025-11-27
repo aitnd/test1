@@ -1,0 +1,32 @@
+<!-- BEGIN: main -->
+{FILE "search.htm"}
+<!-- BEGIN: loop -->
+<table class="archives_list">
+<thead>
+<tr align = "center">
+<td width="100px">Số/Ký hiệu</td>
+<td width="100px">Ngày BH</td>
+<td>Trích yếu</td>
+<td width="60"></td>
+</tr>
+</thead>
+<!-- BEGIN: vb -->
+<tbody>
+<tr>
+<td><a href="{PART}&op={ROW.id}-{ROW.alias}">{ROW.name}</a></td>
+<td>{ROW.time}</td>
+<td><p align="justify"><a href="{PART}&op={ROW.id}-{ROW.alias}">{ROW.tomtat}</a></p></td>
+<td align="center"><a href="{ROW.file}">
+<span style="background:url({IMGM}/{ROW.type}.png) no-repeat center left;" class="archives_down">Tải về</span>
+</a></td>
+</tr>
+</tbody>
+<!-- END: vb -->
+</table>
+<!-- END: loop -->
+<!-- BEGIN: pages -->
+<div class="page">{PAGES}</div>
+<!-- END: pages -->
+<!-- END: main -->
+
+
